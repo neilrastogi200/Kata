@@ -44,7 +44,7 @@ namespace MarsRover.Tests
         [Test]
         [TestCase(1,1,"East","MLMR",2,2,"East")]
         [TestCase(3,3,"East","R",3,3,"South")]
-        public void ExecuteCommands_With_Multiple_Commands2(int x, int y, string inputDirection, string inputcommand,
+        public void ExecuteInput_With_Direction_Commands_And_Position_Being_Set(int x, int y, string inputDirection, string inputcommand,
             int expectedXcoordinate, int expectedYCoordinate, string expectedDirection)
         {
             //Arrange
